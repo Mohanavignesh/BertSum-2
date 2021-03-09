@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from transformers import BertTokenizer
 from nltk.tokenize import sent_tokenize
-from .model_builder import Summarizer
+from src.models.model_builder import Summarizer
 
 
 def preprocess(source_fp):
